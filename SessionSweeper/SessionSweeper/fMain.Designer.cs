@@ -62,7 +62,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(440, 31);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Created by Dysanix/Ch4rg3r - Version 1.4";
+			this.label2.Text = "Translate by SkyTeamWater - Version 1.4";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lblSessionStatus
