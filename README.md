@@ -6,8 +6,14 @@
 按 *Scroll Lock* 锁定战局防止其他人进入.<br>
 <br>
 <br>
-**官方下载:<br>
-[GitLab1.4](http://unraid.zyczy.com.cn:7006/18017894/sessionsweeper/-/raw/master/SessionSweeper/SessionSweeper/SessionSweeper.exe)**<br>
+**官方下载:**
+
+[GitLab1.4](http://unraid.zyczy.com.cn:7006/18017894/sessionsweeper/-/raw/master/SessionSweeper/SessionSweeper/SessionSweeper.exe)
+
+[Gitee1.4](https://gitee.com/zyc18017894/sessionsweeper/releases/v1.4)
+
+[GitHub1.4](https://github.com/SkyTeamWater/SessionSweeper-chs/releases)
+
 
 **系统要求:**<br>
 [1] Windows防火墙需要打开.<br>
