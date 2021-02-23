@@ -1,6 +1,7 @@
-![Donate by Wechat Pay](https://i.loli.net/2021/02/23/K1C7wUsoXhjyqe8.png)
-![Donate by Alipay](https://i.loli.net/2021/02/23/1pPUta8hrENS7xH.jpg)
-**GTA V 在线模式 - SessionSweeper**<br>
+<br>**欢迎捐助**<br>
+<img src="https://i.loli.net/2021/02/23/K1C7wUsoXhjyqe8.png" width = "258" height = "354" alt="Donate by Wechat-Pay">
+<img src="https://i.loli.net/2021/02/23/1pPUta8hrENS7xH.jpg" width = "258" height = "354" alt="Donate by Alipay">
+<br>**GTA V 在线模式 - SessionSweeper**<br>
 按 *Pause/Break* 卡单.<br>
 按 *Scroll Lock* 锁定战局防止其他人进入.<br>
 <br>
