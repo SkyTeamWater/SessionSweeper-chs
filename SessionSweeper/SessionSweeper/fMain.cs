@@ -54,7 +54,7 @@ namespace SessionSweeper
                 else
                 {
                     Activate();
-                    MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("未检测到GTA V!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -88,7 +88,7 @@ namespace SessionSweeper
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("未检测到GTA V!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -102,19 +102,19 @@ namespace SessionSweeper
                 {
                     DataStorage.MouseEventControl.Start();
                     lblAfkStatus.BackColor = Color.Green;
-                    lblAfkStatus.Text = "Auto mouse movement enabled!";
+                    lblAfkStatus.Text = "自动鼠标移动已启用!";
                 }
                 else
                 {
                     DataStorage.MouseEventControl.Stop();
                     lblAfkStatus.BackColor = Color.Red;
-                    lblAfkStatus.Text = "Auto mouse movement disabled!";
+                    lblAfkStatus.Text = "自动鼠标移动已禁用!";
                 }
             }
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("未检测到GTA V!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -132,7 +132,7 @@ namespace SessionSweeper
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("未检测到GTA V!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -145,20 +145,20 @@ namespace SessionSweeper
                 {
                     DataStorage.FirewallControl.UnlockLobby(true);
                     lblSessionStatus.BackColor = Color.Green;
-                    lblSessionStatus.Text = "Session is unlocked!";
+                    lblSessionStatus.Text = "战局解锁了!";
                 }
                 else
                 {
                     DataStorage.FirewallControl.LockLobby(true);
                     lblSessionStatus.BackColor = Color.Red;
-                    lblSessionStatus.Text = "Session is locked!";
+                    lblSessionStatus.Text = "战局上锁了!";
                 }
                 DataStorage.LobbyLocked = !DataStorage.LobbyLocked;
             }
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("未检测到GTA V!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -180,13 +180,13 @@ namespace SessionSweeper
         {
             if (!DataStorage.HasAdministrativeRight)
             {
-                lblSessionStatus.Text = "Run as admin to lock sessions!";
+                lblSessionStatus.Text = "请用管理员模式打开!";
                 lblSessionStatus.BackColor = Color.Red;
                 lblLockSessionInfo.Font = new Font(lblLockSessionInfo.Font, FontStyle.Strikeout);
                 btnScrollLock.Enabled = false;
             }
 
-            lblAfkStatus.Text = "Auto mouse movement disabled!";
+            lblAfkStatus.Text = "自动鼠标移动已禁用!";
             lblAfkStatus.BackColor = Color.Red;
         }
 
@@ -218,5 +218,5 @@ namespace SessionSweeper
         {
             ToggleAntiIdling();
         }
-    }
+	}
 }
